@@ -8,7 +8,7 @@
 - watchlog.timer - таймер для этого сервиса, который будет раз в 30 секунд мониторить лог (/etc/systemd/system/watchlog.timer)
 - watchlog.sh скрипт (/opt/watchlog.sh) 
 - /var/log/watchlog.log - лог файл с произвольным содержимым и ключевым словом "ALERT"\
-Серви стартует при запуске системы, проверить результат можно командой `tail -f /var/log/messages`\
+Сервис стартует при запуске системы, проверить результат можно командой `tail -f /var/log/messages`\
 ![Скрин](https://github.com/FeeLinS9/lesson9/blob/master/picture.png)
 - spawn-fcgi - файл с раскомментированными строками (/etc/sysconfig/spawn-fcgi)
 - spawn-fcgi.service - сервис (/etc/systemd/system/spawn-fcgi.service)
